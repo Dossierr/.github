@@ -31,6 +31,6 @@ It's very simple, it is like when you tell someone the magic ingredient of a rec
 
 For Mapmaker: we chose to tell everyone how our product works under the following conditions:
 - You mention that it is our work, and not yours
-- You cannot use our work for commercial purposes - Do send us a [message](https://mapmaker.nl/contact)  if you want to though, as we can work out a license agreement
+- You cannot use our work for commercial purposes. If you want to though, as we can work out a license agreement
 - If you use our work as a basis and make changes then we do not allow you to distribute that work - So you can make any change for your own use. If you think you can improve the code, then open a pull request.
 For the exact stipulations check our Creative Commons license.
