@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="[https://raw.githubusercontent.com/Dossierr/noncode/main/dossierrlogowide.png](https://raw.githubusercontent.com/Dossierr/noncode/main/dossierrlogowide.png)" alt="Logo" width="320" />
+  <img src="https://raw.githubusercontent.com/Dossierr/noncode/main/dossierrlogowide.png" alt="Logo" width="320" />
+
 </div>
 
 
