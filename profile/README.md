@@ -4,8 +4,8 @@
 </div>
 
 
-## Hi there 👋 Welcome to Dossierr
-This Github organisation contains the code 
+## Hi there 👋 Welcome to Dossierr your GPT powered Legal Assistant
+Dossierr helps you answer legal questions, either from the law, previous rulings or your own files. The site is a SAAS platform with various moving parts and a lot of code. The code is documented here on Github for everyone to see and validate. 
 
 <!--
 
@@ -20,7 +20,7 @@ This Github organisation contains the code
 
 
 # License, Open Source and Creative Commons
-The collection of works are published on Github and under the BY-NC-ND creative commons license.  This is because we value transparency, as well as want others to benefit from our work. This means you'll be able to host your own sessions using the materials, code and methodology we developed. Restrictions do apply: we do not permit: using the works for commercial purposes, redistribution and modification. If you do want to use these materials send us a [message](https://mapmaker.nl/contact) to work out a license agreement.
+The collection of works are published on Github and under the BY-NC-ND creative commons license.  This is because we value transparency, as well as want others to benefit from our work. This means you'll be able to host your own version of the code we developed. Restrictions do apply: we do not permit: using the works for commercial purposes, redistribution and modification. If you do want to use the code commercially please reach out for a license agreement.
 
 
 
