@@ -7,11 +7,13 @@ Dossierr consists of a handful of docker containers working in unison to process
 ![Dossierr structure](https://github.com/Dossierr/.github/assets/71013416/8fe21b74-15b5-41af-a99b-a86bee02ce92)
 
 ### Typical journey of a file in Dossierr:
+
 ##### Preparing information
 1. A file is uploaded by the user on the frontend, and handled by our Django web framework
 2. Django ensures that a database entry is recorded of the file and that it is stored into a S3 bucket that belongs to the end user
 3. This triggers a background task as a new file means that we will need to update our vector database. The vector database contains snippits of text that can be quickly retrieved to complete a prompt.
-4. Our background worker and GPT engine split all files of the user in chunks of text (with a overlap) and converts those into Vectors. Those are then added to Redis, ready for use. 
+4. Our background worker and GPT engine split all files of the user in chunks of text (with a overlap) and converts those into Vectors. Those are then added to Redis, ready for use.
+  * This process also runs for each file scraped by our Law Scraper - which fetches court verdicts and changes to civil code. 
 ##### Answering a query
 5. If the user asks a query in the chat prompt that query is also embedded into a vector. Through the process of a similarity search we can retrieve the text by looking wich chunk of text is most relevant to the query entered by the user
 6. The user query, chat history and the relevant texts that were found in the database are sent to OpenAI and a answer is generated
