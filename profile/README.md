@@ -1,22 +1,10 @@
-<div align="center">
-  <img src="https://github.com/Dossierr/noncode/blob/main/logowide.png" alt="Logo" width="320" />
-
-</div>
-
-
 ## Hi there 👋 Welcome to Dossierr your GPT powered Legal Assistant
 Dossierr helps you answer legal questions, either from the law, previous rulings or your own files. The site is a SAAS platform with various moving parts and a lot of code. The code is documented here on Github for everyone to see and validate. 
 
-<!--
+# Technical overview
+Dossierr consists of a handful of docker containers working in unison to process legal data. Client request go through our NGINX service and end up at our Django Web application for processing. There are several other containers running to ensure the AI works, that legal data is scraped continuesly and that all processed information is stored in a way that can easily be retrieved. Lastly we have a task processor so long running and slow tasks can be dealt with in the background. 
+![Dossierr structure](https://github.com/Dossierr/.github/assets/71013416/8fe21b74-15b5-41af-a99b-a86bee02ce92)
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
 
 
 # License, Open Source and Creative Commons
