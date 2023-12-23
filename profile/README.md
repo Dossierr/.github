@@ -29,7 +29,7 @@ The collection of works are published on Github and under the BY-NC-ND creative 
 
 It's very simple, it is like when you tell someone the magic ingredient of a recipe. Some people choose not to tell what is in the recipe (like coca-cola) others tell what's in it but ask you not to make the same product and there may even be people that will not put any restrictions on how you use the recipe.
 
-For Mapmaker: we chose to tell everyone how our product works under the following conditions:
+For Dossierr: we chose to tell everyone how our product works under the following conditions:
 - You mention that it is our work, and not yours
 - You cannot use our work for commercial purposes. If you want to though, as we can work out a license agreement
 - If you use our work as a basis and make changes then we do not allow you to distribute that work - So you can make any change for your own use. If you think you can improve the code, then open a pull request.
